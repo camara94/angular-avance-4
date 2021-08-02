@@ -23,8 +23,3 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 * Comprendre l’injection de dépendance et développer des services Angular 4 
 * Utiliser et développer des Pipes avec Angular 4 
 * Maîtriser le routing de l’Angular 4  (child, routes secondaires et guards)
-
-## Notion aborbée
-![notions](images/notionabordee.png)
-## Plan du cours
-![plan](images/plan.png)
