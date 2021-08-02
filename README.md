@@ -16,10 +16,11 @@ Les routes représentent la colonne vertébrale d’une application web. Durant 
 Dans le projet final de la formation vous verrez comment utiliser Docker pour mettre en place très rapidement un serveur Restful et vous implémenterez les principaux concepts abordés dans les vidéos.
 
 Cette formation Angular 4 est très orientée pratique et démonstration. Elle est construite autour d’un projet que vous allez réaliser au fur et à mesure que le formateur. Tous les exercices, les sources et les fichiers sont en téléchargement depuis votre espace membre.
-
 ## Objectifs
 * Utiliser Docker du point de vue du développeur Angular 4 
 * Développer des formulaires dans le code des components avec les ReactiveForms sous Angular 4 
 * Comprendre l’injection de dépendance et développer des services Angular 4 
 * Utiliser et développer des Pipes avec Angular 4 
 * Maîtriser le routing de l’Angular 4  (child, routes secondaires et guards)
+## Notion aborbée
+![notions](images/notionabordee.png)
