@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Customer } from './customer';
 
 @Component({
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   lastName: FormControl = new FormControl();
   email: FormControl = new FormControl();
 
-  constructor() {
+  constructor(private fb: FormBuilder) {
     this.customer = new Customer('Mawatta', 'CAMARA', 'mawatta@gmail.com')
   }
   ngOnInit(){
@@ -23,16 +23,11 @@ export class AppComponent implements OnInit {
   }
 
   createCustomerForm(){
-    //initialisation des champs du formulaire
-    this.firstName.setValue( this.customer.firstName );
-    this.lastName.setValue( this.customer.lastName );
-    this.email.setValue( this.customer.email );
-
     // Création du formulaire
-    this.customerForm = new FormGroup({
-      firstName: this.firstName,
-      lastName: this.lastName,
-      email: this.email
+    this.customerForm = this.fb.group({
+      firstName: [this.customer.firstName, [Validators.required]],
+      lastName: [this.customer.lastName, [Validators.required]],
+      email: [this.customer.email,  [Validators.required]]
     })
 
   }

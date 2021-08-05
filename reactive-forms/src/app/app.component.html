@@ -11,4 +11,10 @@
     </label>Email<input type="text" id="email" formControlName="email">
   </form>
   <button (click)="changeProps()">Change Props</button>
+  <p>
+    form value: {{customerForm.value | json}}
+  </p>
+  <p>
+    form value: {{customerForm.status | json}}
+  </p>
 </div>

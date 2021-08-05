@@ -41,3 +41,7 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 
 ### Reactive driven forms
 ![reactive](images/reactivedrivenforms.png)
+## FormBuilder
+![formbuilder](images/formbuilder.png)
+## La validation
+![validation](images/validation.png)
