@@ -27,3 +27,17 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 
 ## Plan du cours
 ![plan](images/plan.png)
+## Plan
+* Les Reactives forms
+* Reactive forms vs Template Driven forms
+* Démostration
+## Les Reactives forms
+![reactive forms](images/reactive-form.png)
+## Comparaison
+![comparaison](images/comparaison.png)
+## Schema
+### Template driven forms
+![template](images/templatedrivenforms.png)
+
+### Reactive driven forms
+![reactive](images/reactivedrivenforms.png)
