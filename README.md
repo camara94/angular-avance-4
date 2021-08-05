@@ -54,3 +54,7 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![service](images/services.png)
 ## Création de service
 ![createservice](images/createservices.png)
+## Pipe
+![pipe](images/pipe.png)
+## Utilisation du pipe
+![ut](images/utiliserpipe.png)
