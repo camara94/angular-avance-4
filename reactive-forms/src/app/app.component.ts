@@ -27,7 +27,8 @@ export class AppComponent implements OnInit {
     this.customerForm = this.fb.group({
       firstName: [this.customer.firstName, [Validators.required]],
       lastName: [this.customer.lastName, [Validators.required]],
-      email: [this.customer.email,  [Validators.required]]
+      email: [this.customer.email,  [Validators.required]],
+      isNew: true
     })
 
   }

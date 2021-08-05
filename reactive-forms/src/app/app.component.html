@@ -4,17 +4,22 @@
     <label for="firstName"></label>Prenom: 
     <input type="text" id="firstName" formControlName="firstName">
     <br />
-    <label for="lastName">
-    </label>Nom: <input type="text" id="lastName" formControlName="lastName">
+    <label for="lastName">Nom: </label><input type="text" id="lastName" formControlName="lastName">
     <br />
     <label for="email">
-    </label>Email<input type="text" id="email" formControlName="email">
+    </label>Email: <input type="text" id="email" formControlName="email">
+    <br />
+    <label for="isNew">Is New: </label>
+    <select formControlName="isNew">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
   </form>
   <button (click)="changeProps()">Change Props</button>
   <p>
     form value: {{customerForm.value | json}}
   </p>
   <p>
-    form value: {{customerForm.status | json}}
+    form state: {{customerForm.status | json}}
   </p>
 </div>

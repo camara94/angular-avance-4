@@ -45,3 +45,6 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![formbuilder](images/formbuilder.png)
 ## La validation
 ![validation](images/validation.png)
+## L'Injection de deépendance ?
+![injection](images/injection.png)
+![depence](images/dependance.png)
