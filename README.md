@@ -58,3 +58,18 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![pipe](images/pipe.png)
 ## Utilisation du pipe
 ![ut](images/utiliserpipe.png)
+## Pipe personaliser
+![pipep](images/pipepersonnaliser.png)
+## UperCase et LowerCase
+### UperCase
+![upper](images/uppercase.png)
+### LowerCase
+![lowercase](images/lowercase.png)
+## DatePipe
+![date](images/datepipe.png)
+## CurrencyPipe
+![curr](images/currency.png)
+## PourcentPipe
+![percent](images/percent.png)
+
+
