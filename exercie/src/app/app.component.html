@@ -1,0 +1,10 @@
+<div style="margin: 10px;">
+  <strong>Prénom: </strong> {{customer.firstname}}<br />
+  <strong>Nom: </strong> {{customer.lastname}}<br />
+  <strong>Email: </strong> {{customer.email}}<br />
+  <button (click)="changeProps()">Change Props</button>
+  &nbsp;
+  <button (click)="changeObject()">Change Object</button>
+  <hr />
+  <app-info [customer]="customerSubject"></app-info>
+</div>
