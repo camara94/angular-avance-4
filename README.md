@@ -71,5 +71,8 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![curr](images/currency.png)
 ## PourcentPipe
 ![percent](images/percent.png)
+## Autre Pipe Personalisée
+![pipe](images/pipepersa.png)
 
-
+## Interface PipeTransformer
+![trans](images/pipetransform.png)
