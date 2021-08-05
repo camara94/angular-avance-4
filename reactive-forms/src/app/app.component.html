@@ -1,0 +1,14 @@
+<div style="margin: 0px auto; width: 600px;">
+  <h1>Reactive Forms en Angular</h1>
+  <form [formGroup]="customerForm">
+    <label for="firstName"></label>Prenom: 
+    <input type="text" id="firstName" formControlName="firstName">
+    <br />
+    <label for="lastName">
+    </label>Nom: <input type="text" id="lastName" formControlName="lastName">
+    <br />
+    <label for="email">
+    </label>Email<input type="text" id="email" formControlName="email">
+  </form>
+  <button (click)="changeProps()">Change Props</button>
+</div>
