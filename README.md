@@ -73,7 +73,6 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![percent](images/percent.png)
 ## Autre Pipe Personalisée
 ![pipe](images/pipepersa.png)
-
 ## Interface PipeTransformer
 ![trans](images/pipetransform.png)
 ## Route en Angular
@@ -83,3 +82,5 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![config](images/config.png)
 ### Application à réaliser ici
 ![routes](images/childroute.png)
+## Chemin relatifs
+![relatif](images/relatif.png)
