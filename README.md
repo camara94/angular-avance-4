@@ -90,3 +90,5 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![surveillance](images/surveillance.png)
 ## Les Guards
 ![can](images/guard.png)
+## Routing Asynchrone
+![routing async](images/routingasync.png)
