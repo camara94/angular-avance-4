@@ -84,3 +84,5 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![routes](images/childroute.png)
 ## Chemin relatifs
 ![relatif](images/relatif.png)
+## Les routes sécondaires
+![route](images/routesecondaire.png)
