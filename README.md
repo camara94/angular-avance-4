@@ -86,3 +86,5 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 ![relatif](images/relatif.png)
 ## Les routes sécondaires
 ![route](images/routesecondaire.png)
+## Surveillance des routes
+![surveillance](images/surveillance.png)
