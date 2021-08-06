@@ -1,2 +1,9 @@
 <p>customer-list works!</p>
+<ul *ngIf="(customers$ | async) as customers">
+    <li *ngFor="let cust of customers" >
+        <div (click)="getOneCustomer(cust.id)">
+            {{cust.firstname}}
+        </div>
+    </li>
+</ul>
 
