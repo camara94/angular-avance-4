@@ -76,3 +76,10 @@ Cette formation Angular 4 est très orientée pratique et démonstration. Elle e
 
 ## Interface PipeTransformer
 ![trans](images/pipetransform.png)
+## Route en Angular
+## Module en angular
+![module](images/module.png)
+### Configuration
+![config](images/config.png)
+### Application à réaliser ici
+![routes](images/childroute.png)
